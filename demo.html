@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Shubham</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home
+                  <span class="visually-hidden">(current)</span>
+                </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <div id="home" class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./matrix-gad09ce185_1920.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                <h1>I am Full Stack Developer</h1>
+                <button class="btn btn-primary">
+                    See More
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- about section -->
+    <div id="about" class="container my-5">
+        <div class="row">
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center" data-aos="fade-right" data-aos-delay="500" data-aos-easing="ease-in-back">
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem minima, eos dicta fuga ipsum ratione! Eos itaque iure ab ea, consectetur harum! Eos architecto eveniet harum veniam recusandae temporibus.</p>
+            </div>
+            <div class="col-md-6" data-aos="fade-left" data-aos-delay="500" data-aos-easing="ease-in-cubic">
+                <img src="./matrix-gad09ce185_1920.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- service -->
+    <div id="service" class="container my-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center mb-3">Services</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div data-aos="fade-right" class="card text-white bg-primary mb-3">
+                    <div class="card-header">Web Dev</div>
+                    <div class="card-body">
+                        <h4 class="card-title">Web Dev</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div data-aos="fade-up" class="card text-dark bg-light mb-3">
+                    <div class="card-header">Mob Dev</div>
+                    <div class="card-body">
+                        <h4 class="card-title">Mob Dev</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div data-aos="fade-left" class="card text-white bg-primary mb-3">
+                    <div class="card-header">Desk Dev</div>
+                    <div class="card-body">
+                        <h4 class="card-title">Desk Dev</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact us -->
+    <div id="contact-us">
+        <div class="row">
+            <h1 class="text-center mb-3">Contact Us</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="card">
+                    <form>
+                        <input type="text" class="form-control my-3" placeholder="Enter Your Name">
+                        <input type="email" class="form-control my-3" placeholder="Enter Your Email">
+                        <input type="number" class="form-control my-3" placeholder="Enter Your Mob No.">
+                        <textarea class="form-control my-3" placeholder="Text Your Message"></textarea>
+                        <div class="text-center">
+                            <input type="submit" class="btn btn-success" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+
+    <script src="./bootstrap.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
